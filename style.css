@@ -574,14 +574,6 @@ font-size: 40px;
 transition: 2s all;
 }
 
-/* .volverIndex{
-  display: inline-block;
-text-align: center;
-margin: auto;
-  border: 2px solid gold;
-  padding: 20px;
-}
- */
 .volverIndex a{
   color: white;
   text-decoration: none;
