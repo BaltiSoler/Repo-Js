@@ -4,7 +4,6 @@ const botonLog = document.getElementById('buttonLog');
 let recordar = document.getElementById("rememberMe");
 let olvidar = document.getElementById("link");
 
-
 Swal.fire({
     icon: 'info',
     title: 'Bienvenido!!',

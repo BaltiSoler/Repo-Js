@@ -32,7 +32,6 @@ function addToCarritoItem(e){
   addItemCarrito(newItem)
 }
 
-
 function addItemCarrito(newItem){
 
   const alert = document.querySelector('.alert')
@@ -57,7 +56,6 @@ function addItemCarrito(newItem){
   
   renderCarrito()
 } 
-
 
 function renderCarrito(){
   tbody.innerHTML = ''
@@ -86,7 +84,6 @@ function renderCarrito(){
   })
   CarritoTotal()
 }
-
 
 function CarritoTotal(){
   let Total = 0;

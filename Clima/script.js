@@ -12,8 +12,6 @@ form.addEventListener('submit', (e) => {
     }
 
     callAPI(ciudad.value, pais.value);
-    //console.log(nameCity.value);
-    //console.log(nameCountry.value);
 })
 
 function callAPI(city, country){
@@ -31,7 +29,6 @@ function callAPI(city, country){
                 clearHTML();
                 showWeather(dataJSON);
             }
-            //console.log(dataJSON);
         })
         .catch(error => {
             console.log(error);
@@ -55,16 +52,9 @@ function showWeather(data){
     `;
 
     result.appendChild(content);
-
-    /* console.log(name);
-    console.log(temp);
-    console.log(temp_maximo);
-    console.log(temp_minimo);
-    console.log(arr.icon); */
 }
 
 function showError(message){
-    //console.log(message);
     const alert = document.createElement('p');
     alert.classList.add('alert-message');
     alert.innerHTML = message;

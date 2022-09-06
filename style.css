@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Overpass:ital,wght@1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 
 * {
@@ -12,25 +13,27 @@
 
 /* -------------------------------------------- INDEX PRINCIPAL ---------------------------------------------------------------------------- */
 
-#sec1,#sec2,#sec3{
+#sec1,
+#sec2,
+#sec3 {
   height: 100vh;
 }
 
 .bodyIndex {
-background-image: url(./Cosas/fondo2.jpg);
-background-size: cover;
-background-position: center;
-background-attachment: fixed;
+  background-image: url(./Cosas/fondo2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
-.headerIndex{
+.headerIndex {
   display: flex;
   justify-content: flex-end;
   margin-top: 20px;
   margin-right: 10px;
 }
 
-.headerIndex a{
+.headerIndex a {
   color: white;
   text-decoration: none;
   border: 1px solid white;
@@ -40,12 +43,12 @@ background-attachment: fixed;
   font-size: 25px;
 }
 
-.headerIndex a:hover{
+.headerIndex a:hover {
   font-size: 40px;
   transition: 1s;
 }
 
-.texto-contenedor{
+.texto-contenedor {
   color: white;
   height: 50vh;
   display: flex;
@@ -54,42 +57,41 @@ background-attachment: fixed;
   align-items: center;
 }
 
-.titulo2{
+.titulo2 {
   text-shadow: 1px 3px gray;
   font-family: 'Kalam', cursive;
-  margin-bottom: 10PX;
-
+  margin-bottom: 10px;
 }
 
-.titulo1{
+.titulo1 {
   text-shadow: 2px 4px gray;
   font-family: 'Kalam', cursive;
   margin-bottom: 10px;
 }
 
-.ver1{
+.ver1 {
   color: white;
   text-decoration: none;
   padding: 5px;
   border: 1px solid white;
 }
 
-.ver2{
+.ver2 {
   color: white;
   text-decoration: none;
   padding: 5px;
   border: 1px solid white;
 }
 
-.ver1:hover{
+.ver1:hover {
   color: rgb(167, 158, 158)
 }
 
-.ver2:hover{
+.ver2:hover {
   color: rgb(167, 158, 158)
 }
 
-.texto-contenedor2{
+.texto-contenedor2 {
   color: white;
   height: 50vh;
   display: flex;
@@ -99,7 +101,7 @@ background-attachment: fixed;
   transform: translateY(50%);
 }
 
-.texto-contenedor2 img{
+.texto-contenedor2 img {
   width: 370px;
   height: 300px;
   object-fit: cover;
@@ -109,12 +111,12 @@ background-attachment: fixed;
   margin-bottom: 20px;
 }
 
-.texto-contenedor2 img:hover{
+.texto-contenedor2 img:hover {
   opacity: 0.9;
   transition: .4s all;
 }
 
-.seccionN3{
+.seccionN3 {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -123,70 +125,73 @@ background-attachment: fixed;
   transform: translateY(85%);
 }
 
-.info{
+.info {
   display: flex;
   flex-direction: column;
   margin-left: 200px;
-  
 }
 
-.about,.page{
+.about,
+.page {
   text-align: center;
-padding: 20px;
-border: 1px solid white;
-margin-bottom: 20px;
-box-shadow: inset 0 1px 3px #ddd;
+  padding: 20px;
+  border: 1px solid white;
+  margin-bottom: 20px;
+  box-shadow: inset 0 1px 3px #ddd;
 }
 
-.volverAIndex{
+.volverAIndex {
   text-align: center;
-padding: 20px;
-border: 1px solid white;
-box-shadow: inset 0 1px 3px #ddd;
+  padding: 20px;
+  border: 1px solid white;
+  box-shadow: inset 0 1px 3px #ddd;
 }
 
-.about a:hover{
+.about a:hover {
   color: rgb(167, 158, 158);
 }
 
-.page a:hover{
+.page a:hover {
   color: rgb(167, 158, 158);
 }
 
-.volverAIndex a:hover{
+.volverAIndex a:hover {
   color: rgb(167, 158, 158);
 }
 
-.about a, .page a,.volverAIndex a{
+.about a,
+.page a,
+.volverAIndex a {
   color: white;
   text-decoration: none;
 }
 
-.climaIndex{
+.climaIndex {
   border: 1px solid white;
-display: inline-block;
+  display: inline-block;
   margin-right: 200px;
   box-shadow: #ccc;
   padding: 5px;
   box-shadow: inset 0 1px 3px #ddd;
 }
 
-.climaFoto{
+.climaFoto {
   color: white;
-font-size: 50px;
+  font-size: 50px;
 }
 
-.climaFoto:hover{
+.climaFoto:hover {
   color: rgb(179, 172, 172);
 }
 
-.climaPar{
+.climaPar {
   color: white;
   font-size: 20px;
   font-family: 'Overpass', sans-serif;
 }
 
-.sp1,.sp2{
+.sp1,
+.sp2 {
   color: white;
   font-size: 30px;
 }
@@ -276,8 +281,6 @@ font-size: 50px;
 }
 
 /* --------------------------------------------------------- Consulta Tu Clima ----------------------------------------------------------------- */
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 .bodyClima {
   font-family: 'Montserrat', sans-serif;
@@ -371,7 +374,7 @@ form select {
   color: red !important;
 }
 
-.volver{
+.volver {
   color: white;
   text-decoration: none;
   align-items: center;
@@ -543,20 +546,20 @@ button a {
 
 /* -------------------------------------------------------------- Sobre Nosotros ---------------------------------------------------------------*/
 
-.columnaNosotros{
+.columnaNosotros {
   margin-top: 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-align-items: center;
+  align-items: center;
 }
 
-.nosotros{
+.nosotros {
   width: 350px;
   margin-bottom: 50px;
 }
 
-.parrafo{
+.parrafo {
   padding: 6px;
   border: solid 2px gold;
   color: white;
@@ -564,17 +567,17 @@ align-items: center;
   font-family: 'Overpass', sans-serif;
 }
 
-.nosotros a{
+.nosotros a {
   color: white;
   text-decoration: none;
 }
 
-.nosotros a:hover{
-font-size: 40px;
-transition: 2s all;
+.nosotros a:hover {
+  font-size: 40px;
+  transition: 2s all;
 }
 
-.volverIndex a{
+.volverIndex a {
   color: white;
   text-decoration: none;
   display: inline-block;
